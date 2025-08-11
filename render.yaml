@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: warriors-server
+    env: docker
+    dockerfilePath: ./Dockerfile
+    region: singapore
+    plan: free
